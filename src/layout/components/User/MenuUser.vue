@@ -31,48 +31,6 @@
                         </li>
                     </ul>
                 </li>
-
-                <!-- Quản lý menu -->
-                <li class="nav-item dropdown">
-                    <a href="javascript:;" class="nav-link dropdown-toggle dropdown-toggle-nocaret"
-                        data-bs-toggle="dropdown">
-                        <div class="parent-icon"><i class="fa-solid fa-user"></i></div>
-                        <div class="menu-title">Quản Lý</div>
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li class="nav-item">
-                            <router-link class="nav-link mt-2" to="/admin/nhan-vien">
-                                <div class="parent-icon"><i class="fa-solid fa-user"></i></div>
-                                <div class="menu-title">Quản Lý nhân viên</div>
-                            </router-link>
-                        </li>
-                        <li class="nav-item">
-                            <router-link class="nav-link mt-2" to="/admin/lich-lam">
-                                <div class="parent-icon"><i class="fa-solid fa-calendar-days"></i></div>
-                                <div class="menu-title">Quản Lý Lịch làm nhân viên</div>
-                            </router-link>
-                        </li>
-                        <li class="nav-item">
-                            <router-link class="nav-link mt-2" to="/admin/quan-ly-luong">
-                                <div class="parent-icon"><i class="fa-solid fa-money-bill"></i></div>
-                                <div class="menu-title">Quản Lý Lương</div>
-                            </router-link>
-                        </li>
-                        <li class="nav-item">
-                            <router-link class="nav-link mt-2" to="/admin/chi-tiet-nhan-vien">
-                                <div class="parent-icon"><i class="fa-solid fa-list"></i></div>
-                                <div class="menu-title">chi tiết nhân viên</div>
-                            </router-link>
-                        </li>
-                        <li class="nav-item">
-                            <router-link class="nav-link mt-2" to="/admin/tao-nhan-vien">
-                                <div class="parent-icon"><i class="fa-solid fa-plate-wheat"></i></div>
-                                <div class="menu-title">tạo nhân viên</div>
-                            </router-link>
-                        </li>
-                    </ul>
-                </li>
-
                 <!-- Các mục khác -->
                 <li class="nav-item">
                     <router-link class="nav-link" to="/user/lich-su-muon">
@@ -84,6 +42,35 @@
                     <router-link class="nav-link" to="/user/thanh-toan">
                         <div class="parent-icon"><i class="fa-solid fa-table"></i></div>
                         <div class="menu-title">Thanh toán</div>
+                    </router-link>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a href="javascript:;" class="nav-link dropdown-toggle dropdown-toggle-nocaret"
+                        data-bs-toggle="dropdown">
+                        <div class="parent-icon"><i class="fa-solid fa-book-atlas"></i></div>
+                        <div class="menu-title">Danh Mục Sách</div>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li class="nav-item">
+                            <router-link class="nav-link mt-2" to="/user/danh-muc-sach">
+                                <div class="parent-icon"><i class="fa-solid fa-book-atlas"></i></div>
+                                <div class="menu-title">Sách</div>
+                            </router-link>
+                        </li>
+                        <li class="nav-item">
+                            <router-link class="nav-link mt-2" to="/user/chi-tiet-sach">
+                                <div class="parent-icon"><i class="fa-solid fa-calendar-days"></i></div>
+                                <div class="menu-title">Chi Tiết Sách</div>
+                            </router-link>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <router-link class="nav-link" to="/user/quan-ly-tai-khoan-ca-nhan">
+                        <div class="parent-icon"><i class="fa-regular fa-id-card"></i></div>
+                        <div class="menu-title">Quản Lý Tài Khoản Cá Nhân</div>
                     </router-link>
                 </li>
             </ul>

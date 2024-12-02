@@ -30,8 +30,6 @@
                                 <i class="bx bx-right-arrow-alt"></i> Phòng
                             </router-link>
                         </li>
-                      
-                      
                     </ul>
                 </li>
                 
@@ -45,6 +43,19 @@
                     <router-link class="nav-link" to="/admin/hoa-don">
                         <div class="parent-icon "><i class="fa-solid fa-table"></i></div>
                         <div class="menu-title">Hóa Đơn</div>
+                    </router-link>
+                </li>
+
+                <li class="nav-item">
+                    <router-link class="nav-link" to="/admin/quan-ly-sach">
+                        <div class="parent-icon "><i class="fa-solid fa-book-journal-whills"></i></div>
+                        <div class="menu-title">Quản Lý Sách</div>
+                    </router-link>
+                </li>
+                <li class="nav-item">
+                    <router-link class="nav-link" to="/admin/quan-ly-tai-khoan">
+                        <div class="parent-icon "><i class="fa-solid fa-address-book"></i></div>
+                        <div class="menu-title">Quản Lý Tài Khoản</div>
                     </router-link>
                 </li>
             </ul>
